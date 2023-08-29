@@ -1,0 +1,71 @@
+body {
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+        
+}
+
+header, section {
+    width: 50%;
+    border: 2px outset darkgrey;
+    margin: 20px auto;
+    background-color: white;
+    padding: 0px 40px;
+}
+
+h1 {
+    color: rgb(233 53 53);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header a {
+    border: 1px solid rgb(233 53 53);
+    border-radius: 5px;
+    background-color: rgb(233 53 53);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 120px;
+    margin: auto;    
+}
+
+header img {
+    border: 5px solid lightgrey;
+    border-radius: 50%;
+}
+
+figure {
+    text-align: center;
+}
+
+/* ul {
+ 
+    text-align: center;
+} */
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    color: rgba(211 211 211 0.5);
+}
+
+.filmtitre {
+    text-align: center;
+}
+
+.filmdes {
+    margin-left: 30px;
+}
+
+span {
+    background-color: lightgrey;
+}
